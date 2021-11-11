@@ -1,0 +1,287 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Responsive */
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.grid__column-2 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 20%;
+}
+
+.grid__column-2-5 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 20%;
+}
+
+
+.grid__column-7 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 70%;
+}
+
+.grid__column-6 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 60%;
+}
+
+.grid__column-4 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 40%;
+}
+
+.grid__column-3 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 30%;
+}
+
+.grid__column-6 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 60%;
+}
+
+
+.grid__column-10 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 83.3334%;
+}
+
+.grid__column-8 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 80%;
+}
+
+.grid__column-3 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 30%;
+}
+
+.grid__column-5 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 50%;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.header {
+    background-color: white;
+}
+
+.header-contant {
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+._3d2_4f {
+    height: 42px;
+    margin-right: -10px;
+}
+
+._3XB6zw {
+    fill: #ee4d2d;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo__title {
+    margin-left: 30px;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: -10px;
+    font-weight: 600;
+    color: #F37F66;
+    position: relative;
+}
+
+.header-logo__title::before {
+    position: absolute;
+    content: "";
+    display: block;
+    background-color: red;
+    border: 1px solid #F9B7A8;
+    height: 20px;
+    left: -12px;
+}
+
+.banner-help {
+    background-color: #F74E24;
+    height: 314px;
+    position: relative;
+}
+
+.banner-help__contain {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 73%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-help__title {
+    font-size: 54px;
+    line-height: 60px;
+    color: white;
+    font-weight: 600;
+    padding: 26px;
+}
+
+.banner-help__input {
+    padding-left: 26px;
+}
+
+.help-input {
+    padding: 20px;
+    width: 1000px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    font-size: 20px;
+}
+
+.category-help {
+    margin-top: 30px;
+    border-right: 1px solid #EFEEEF;
+}
+
+.category-help__title {
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.category-help__item {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 12px 0 12px 0;
+}
+
+.content-help {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.content-help__bg {
+    background-color: #FFF9E5;
+    padding: 30px;
+}
+
+.content-help__title {
+    font-weight: 600;
+    margin: 30px 0 20px 0;
+}
+
+.content-help__text {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 24px 0 24px 0;
+    border-bottom: 1px solid #E0E1E0;
+}
+
+.btn-load {
+    background-color: #AEA6A6;
+    font-size: 14px;
+    margin-top: 10px;
+    height: 34px;
+    padding: 6px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+
+.contact-shop {
+    margin-top: 30px;
+}
+
+.contact-shop__title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.contain-btn {
+    display: flex;
+}
+
+.btn-contact {
+    display: flex;
+    padding: 4px;
+    align-items: center;
+    height: 50px;
+    width: 202px;
+    margin-right: 10px;
+}
+
+.btn-contact__contain {
+    padding-left: 10px;
+}
+
+.text_1 {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: start;
+}
+
+.text_2 {
+    font-size: 10px;
+    line-height: 14px;
+    text-align: start;
+}
+
+.footer {
+    border-top: 1px solid #EFEEEF;
+    padding: 20px;
+}
+
+.icon-insta {
+    font-size: 24px;
+}
+
+.footer-2__contain {
+    margin-left: 30px;
+}
+
+.dk {
+    padding: 0 10px 10px 10px;
+    border-right: 1px solid #EFEEEF;
+}
